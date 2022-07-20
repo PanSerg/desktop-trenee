@@ -3,11 +3,11 @@ body {
   color: rgba(0, 0, 0, 0.8);
 }
 
-/*цвет основного текста №000000*/
-/*вторичный цвет текста rgba(0, 0, 0.8)*/
+/* цвет основного текста №000000 */
+/* вторичный цвет текста rgba(0, 0, 0.8) */
 /* белый #FFFFFF */
 /* акцент #18a0fb */
-/*вторичный цвет фона #F5F5F5: */
+/* вторичный цвет фона #F5F5F5: */
 
 .root {
   --primery-text-color:rgba(0. 0. 0. 0.8);
@@ -18,7 +18,7 @@ body {
 
 .body {
   background-color: var(--primary-bg-color)
-  color:var(--primery-text-color);
+  color: var(--primery-text-color);
 }
 
 .logo {
@@ -29,7 +29,7 @@ body {
   color: #18a0fb;
 }
 
-/*site nav*/
+/* site nav */
 .site-nav .link {
   color: #18a0fb;
 }
@@ -48,21 +48,23 @@ body {
 /* Features */
 
 .fearure-list .title {
-  color: #000000;
+  color: var(--title-text-color);
 }
 
-.feature-list .link {
-  color: #18a0fb;
+/* Examples */
+
+.work-list .title {
+  color: var(--title-text-color);
 }
 
 /* button */
 
 .button {
-  background-color: var(--primary-bg-color);
   color: var(--title-text-color);
+  background-color: var(--primary-white-color);
 }
 
-.button.primary {
+.button .primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
