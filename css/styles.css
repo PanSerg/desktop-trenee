@@ -9,6 +9,8 @@ body {
 /* акцент #18a0fb */
 /* вторичный цвет фона #F5F5F5: */
 
+
+
 .root {
   --primery-text-color:rgba(0. 0. 0. 0.8);
   --title-text-color:#000000;
@@ -19,10 +21,15 @@ body {
 .body {
   background-color: var(--primary-bg-color)
   color: var(--primery-text-color);
+  font-family: Monserrat, sans-serif;
 }
 
 .logo {
-  color: #000000;
+  color: var(--primery-text-color);
+  font-family: Comfortaa, cursive;
+
+  font-size: 28px;
+  line-height: 1.14px;
 }
 
 .logo:hover {
@@ -32,6 +39,10 @@ body {
 /* site nav */
 .site-nav .link {
   color: #18a0fb;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
 }
 
 .site-nav .link:hover,
@@ -39,9 +50,12 @@ body {
   color: black;
 }
 
-.hero-titele,
-.features-title,
-.work-title {
+.site-nav .link.current {
+  color: var(--title-text-color);
+}
+
+/* Hero */
+.hero-titele, {
   color: #000000;
 }
 
