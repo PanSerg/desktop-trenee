@@ -6,17 +6,18 @@ body {
 /*цвет основного текста №000000*/
 /*вторичный цвет текста rgba(0, 0, 0.8)*/
 /* белый #FFFFFF */
-/* акцент #18A0FB */
+/* акцент #18a0fb */
 /*вторичный цвет фона #F5F5F5: */
 
 .root {
   --primery-text-color:rgba(0. 0. 0. 0.8);
-  --title-text-color: #000000;
-  --accent-color: orange;
+  --title-text-color:#000000;
+  --accent-color:#18a0fb;
+  --primary-white-color:#ffffff
 }
 
 .body {
-  background-color: #fff;
+  background-color: var(--primary-bg-color)
   color:var(--primery-text-color);
 }
 
@@ -52,4 +53,25 @@ body {
 
 .feature-list .link {
   color: #18a0fb;
+}
+
+/* button */
+
+.button {
+  background-color: var(--primary-bg-color);
+  color: var(--title-text-color);
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button .secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+
+.button .primary {
+
 }
