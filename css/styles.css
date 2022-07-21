@@ -22,12 +22,14 @@ body {
   background-color: var(--primary-bg-color)
   color: var(--primery-text-color);
   font-family: Monserrat, sans-serif;
+  letter-spacing: -0.015em;
+  font-size 18px;
+  line-height: 1.67
 }
 
 .logo {
   color: var(--primery-text-color);
   font-family: Comfortaa, cursive;
-
   font-size: 28px;
   line-height: 1.14px;
 }
@@ -56,26 +58,43 @@ body {
 
 /* Hero */
 .hero-titele, {
-  color: #000000;
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43px
+  text-align: center;
 }
 
-/* Features */
+/* Section */
 
-.fearure-list .title {
+.section-title {
   color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Features и Examples */
+
+.fearure-list .title,
+.work-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-style: 24px;
+  line-height: 1.5;
 }
 
 /* Examples */
-
-.work-list .title {
-  color: var(--title-text-color);
-}
 
 /* button */
 
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2px;
 }
 
 .button .primary {
